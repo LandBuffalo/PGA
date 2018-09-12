@@ -1,0 +1,12 @@
+#!/bin/bash
+#PBS -q express
+#PBS -l walltime=01:00:00
+#PBS -l ncpus=512
+#PBS -l mem=128GB
+#PBS -l jobfs=100GB
+#PBS -l wd
+#PBS -j oe
+
+module load openmpi/1.10.2
+
+mpirun ./GAP -dim 50  -pop_size 8192 -total_runs 1-15 -max_base_FEs 1000000 -total_functions 26-26 -migration_topology lattice -interval 50 -migration_size 2 -buffer_capacity 80

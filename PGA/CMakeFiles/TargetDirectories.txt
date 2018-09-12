@@ -1,0 +1,5 @@
+/home/595/cxj595/thesis/GAP/CMakeFiles/edit_cache.dir
+/home/595/cxj595/thesis/GAP/CMakeFiles/rebuild_cache.dir
+/home/595/cxj595/thesis/GAP/src/CMakeFiles/GAP.dir
+/home/595/cxj595/thesis/GAP/src/CMakeFiles/edit_cache.dir
+/home/595/cxj595/thesis/GAP/src/CMakeFiles/rebuild_cache.dir
